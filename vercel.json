@@ -2,6 +2,10 @@
   "version": 2,
   "routes": [
     {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
       "src": "/Intro_Web.webm",
       "dest": "/public/Intro_Web.webm"
     },
