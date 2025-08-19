@@ -1,19 +1,14 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "*.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "public/**",
-      "use": "@vercel/static"
-    }
-  ],
+  "functions": {},
   "routes": [
     {
-      "src": "/",
-      "dest": "/index.html"
+      "src": "/Intro_Web.webm",
+      "dest": "/public/Intro_Web.webm"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }
