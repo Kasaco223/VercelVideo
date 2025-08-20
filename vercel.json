@@ -1,8 +1,8 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/work",
-      "dest": "/work.html"
+      "source": "/work",
+      "destination": "/work.html"
     }
   ],
   "headers": [
